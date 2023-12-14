@@ -1,0 +1,39 @@
+:root {
+    --bg-color: #1d2d3c;
+    --header-color: #06131f;
+    --bg-card: #112030;
+    --header-height: 100px;
+}
+
+img {
+    aspect-ratio: 1/1;
+    max-width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: calc(100vh - var(--header-height));
+    overflow-y: auto;
+    background-color: var(--bg-color);
+}
+
+header {
+    color: white;
+    height: var(--header-height);
+    background-color: var(--header-color);
+    
+}
+
+.row{
+    margin-top: 2rem;
+}
+
+
+.my-card {
+    background-color: var(--bg-card);    
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    height: calc(100% - 2rem);
+    
+}
